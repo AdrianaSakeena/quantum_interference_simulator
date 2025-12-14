@@ -31,3 +31,11 @@ dx = .05
 #Your detector screen is divided into pixels of width dx, and you cannot distinguish
 #... two particle hits whose positions differ by less than dx
 bins = int((screen_max - screen_min)/dx)
+
+# distance between slit centers
+half_screen = (screen_max - screen_min)/2
+#the center of the left slit (negative side of screen)
+d_1 = (half_screen/2)*-1
+
+#the center of the right slit (positive side of screen)
+d_2 = (half_screen/2)

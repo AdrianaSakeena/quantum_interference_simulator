@@ -18,6 +18,7 @@ def plot_maker(hits):
 
     plt.hist(hits,bins = config.bins,density = True)
     plt.xlim(config.screen_min,config.screen_max)
-    plt.xlabel("position")
-    plt.ylabel("Probability Density")
+    plt.xlabel("Screen Position X")
+    plt.ylabel("Estimated Probability Density")
+    plt.title("Double Slit Experiment (Classical Expected Result)")
     plt.show()
