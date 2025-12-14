@@ -40,6 +40,17 @@ Results:
 The classical double-slit experiment produces a probability distribution consisting of two smooth Gaussian peaks, each corresponding to one of the slits. The peaks are centered at positions aligned with the slit locations, and their similar heights indicate an equal probability for particles to pass through either slit. The continuous, non-oscillatory shape of the distribution reflects the statistical independence of particle arrivals and the absence of any interference effects. Consistent with classical mechanics, the observed pattern is simply the sum of two independent single-slit distributions and exhibits no interference fringes.This result establishes a classical baseline and highlights the inability of classical probability theory to produce interference patterns.
 
 
+## Experiment 3: Double-Slit Measurement (Observed Result, No Path Detection)
+
+When the double-slit experiment is performed without any measurement that determines which slit an electron passes through, the observed probability distribution on the screen exhibits an interference pattern rather than the independent smooth distributions predicted by classical probability theory. This behavior cannot be explained by treating electrons as classical particles following definite trajectories.
+
+<img width="354" height="134" alt="image" src="https://github.com/user-attachments/assets/aec05c47-97b9-4b75-bd0e-8b0f075185f7" />
+
+Instead, the results are consistent with a quantum description in which electrons are represented by complex probability amplitudes that propagate through both slits simultaneously. These amplitudes carry phase information and interfere when combined, producing regions of constructive and destructive interference on the detection screen. In this experiment, we model the observed double-slit interference pattern by replacing classical probability addition with quantum amplitude superposition, demonstrating how interference arises as a purely quantum effect.
+
+
+Results:
+
 
 
 
