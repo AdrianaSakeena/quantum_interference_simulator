@@ -34,6 +34,17 @@ Classical physics therefore predicts that the resulting distribution on the
 detection screen is the sum of two independent single-slit distributions, 
 producing two smooth peaks with no interference fringes.
 
+Classical Double-Slit Assumptions:
+- Each particle passes through one slit only. 
+- Particles do not influence each other. 
+- Each slit produces a smooth probability distribution on the screen. 
+- The probability density from each slit is highest at the position aligned with that slit.
+- The two slits are identical, so particles have an equal probability of passing through either slit. 
+- The detector records only the position of arrival, not which slit the particle passed through. 
+- No phase or interference effects are included in this model. 
+
+ 
+
 Results:
 <img width="472" height="359" alt="image" src="https://github.com/user-attachments/assets/ff839abc-fdae-457a-a392-7d8d8d2b8a96" />
 
