@@ -100,6 +100,9 @@ Although the slit-to-screen distance L is constant, the vertical separation x �
 
 
 
+
+
+
 2. Determining the Phase Accumulated Along a Path:
    
 In quantum mechanics, phase is proportional to distance traveled. While phase is not directly observable, it plays a crucial role in determining how probability amplitudes interfere when combined.
@@ -116,6 +119,9 @@ For a particle traveling from slit 1 to a screen position x, this can be summari
 “The particle travels from slit 1 to screen position x, accumulating a phase determined by the distance traveled along that path.”
 
 This phase information will be used to construct the complex probability amplitudes whose superposition produces the observed interference pattern.
+
+
+
 
 
 
@@ -163,6 +169,9 @@ This information is not directly observable but becomes physically meaningful wh
 
 
 
+
+
+
 4. Computing the Measureable Probability Density:
    
 Once the complex probability amplitudes from each slit have been constructed, they are combined to form a total amplitude:
@@ -204,6 +213,9 @@ Interference does not arise from squaring a single amplitude, which would yield 
 The resulting probability density is a continuous distribution across the screen. Regions of constructive interference correspond to higher probability density, while regions of destructive interference correspond to lower probability density.
 
 If individual particle detections are later simulated, a histogram of detection events will approximate this continuous probability distribution as the number of detected particles increases.
+
+
+
 
 
 Final Note:
