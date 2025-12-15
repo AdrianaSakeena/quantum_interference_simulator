@@ -86,6 +86,13 @@ When a slit has nonzero width (Result 2), particles may pass through different v
 The goal of this extension is to incorporate slit width into the model while preserving the same quantum-mechanical framework based on complex probability amplitudes.
 A more detailed model incorporating finite slit width would require integrating amplitudes over all possible entry points within the slit.
 
+Physics Interpretation of Nonzero Slit Width:
+- In quantum mechanics, when path information is unobserved, all possible paths contribute coherently at the level of probability amplitudes. This principle applies not only to different slits, but also to different points within a single slit.
+
+For a slit of finite width, the particle does not pass through a single, well-defined position. Instead, all positions within the slit opening represent possible paths. Because no measurement is made to determine where within the slit the particle passes, these alternatives must be summed as amplitudes rather than treated as independent events.
+
+This coherent summation leads to partial cancellation of amplitudes from different parts of the slit, producing a diffraction envelope that modulates the interference fringes.
+
 results:
  (picture here)
 
