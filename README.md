@@ -78,7 +78,9 @@ In Result 1, each slit was modeled as a point-like source. This idealization cap
 
 
 
-Result 2) (hereY
+Result 2) Nonzero slit width
+
+- picture here
 When a slit has nonzero width (Result 2), particles may pass through different vertical positions within the same slit. Each of these possible paths accumulates a slightly different phase before reaching the screen. As a result, amplitudes originating from different points within a single slit can interfere with one another, producing diffraction in addition to the interference between slits.
 
 The goal of this extension is to incorporate slit width into the model while preserving the same quantum-mechanical framework based on complex probability amplitudes.
