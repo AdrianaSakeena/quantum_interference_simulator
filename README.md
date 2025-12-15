@@ -98,14 +98,6 @@ r₁(x) = √(L² + (x − y₁)²).
 
 Although the slit-to-screen distance L is constant, the vertical separation x − y₁ varies across the screen. As a result, each screen position corresponds to a unique path length. These geometric path lengths form the foundation for determining the quantum phase accumulated along each path.
 
-Visualization
-●  (x)
-        |\
-x − y₁  | \
-        |  \   r₁(x)
-        |   \
-        ●----●
-            L
 
 
 2. Determining the Phase Accumulated Along a Path:
@@ -129,7 +121,7 @@ This phase information will be used to construct the complex probability amplitu
 
 3. Constructing Complex Probability Amplitudes:
    
-   - What is a complex probability amplitude?
+- What is a complex probability amplitude?
      
  A complex probability amplitude is an unobservable complex quantity whose magnitude squared gives the probability of a measurement outcome and whose phase controls interference effects. It is a mathematical object that behaves like a wave in order to encode phase information, but it does not represent a physical wave height and is not directly measurable.
 
