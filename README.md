@@ -72,7 +72,8 @@ This simulation makes the following controlled assumptions in order to isolate q
  These assumptions are not meant to fully replicate a real laboratory experiment, but rather to model the essential quantum mechanism responsible for interference.
 
 Result 1) Narrow-slit (point-source) apporoximation:
-<img width="474" height="361" alt="image" src="https://github.com/user-attachments/assets/a1b8ce95-4a4f-46e1-9376-401656f9c923" />
+
+- <img width="474" height="361" alt="image" src="https://github.com/user-attachments/assets/a1b8ce95-4a4f-46e1-9376-401656f9c923" />
 In Result 1, each slit was modeled as a point-like source. This idealization captures the essential mechanism of quantum interference but neglects an important physical feature of real experiments: slits have finite width.
 
 
