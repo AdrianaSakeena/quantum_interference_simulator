@@ -10,7 +10,7 @@ import src.config as config
 
 #create a function that plots a graph based on the given x values from the hit simualator
 
-def plot_maker(hits):
+def classical_plot_maker(hits):
     # hits are x values from hit_simulator
     #the number "bins" is the amount of groups the x values will be put into
     # density = True, means were are modeling using the physics interpretation
@@ -22,3 +22,17 @@ def plot_maker(hits):
     plt.ylabel("Estimated Probability Density")
     plt.title("Double Slit Experiment (Classical Expected Result)")
     plt.show()
+   
+
+def plot_probability_distribution(screen,p):
+    plt.figure() #start a new plotting window
+    plt.plot(screen,p)#plot the probability distribution to the correct x values
+    plt.xlabel("Screen Position x") 
+    plt.ylabel("Probability P(x)")
+    plt.title("Double Slit Interference (No Which-Path Dectection)")
+    plt.grid(True) #add grid lines to the background so it is easier to see peaks and spacing
+    plt.tight_layout() #improve spacing/presentation cleanup
+    plt.show() #show the plot
+              
+
+    
