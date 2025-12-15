@@ -61,7 +61,7 @@ Instead, experimental results are consistent with a quantum description in which
 
 In this experiment, we model the observed double-slit interference pattern by replacing classical probability addition with quantum amplitude superposition, demonstrating how interference arises as a purely quantum effect.
 
-#Modeling Assumptions:
+Modeling Assumptions:
 This simulation makes the following controlled assumptions in order to isolate quantum interference effects:
 - One-dimensional screen coordinate
 - Idealized, coherent slits
@@ -84,7 +84,7 @@ results:
 
 
 
-#Determining the Geometry of Particle Path:
+1. Determining the Geometry of Particle Path:
    
 - What path does the particle take?
 The first step in the model is to determine the geometric path length from a slit to a point on the screen.
