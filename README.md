@@ -107,7 +107,8 @@ x − y₁  | \
             L
 
 
-2. Determining the Phase Accumulated Along a Path
+2. Determining the Phase Accumulated Along a Path:
+   
 In quantum mechanics, phase is proportional to distance traveled. While phase is not directly observable, it plays a crucial role in determining how probability amplitudes interfere when combined.
 
 For a particle with wavelength λ, the phase accumulated over a distance r is given by
@@ -125,7 +126,7 @@ This phase information will be used to construct the complex probability amplitu
 
 
 
-3. Constructing Complex Probability Amplitudes
+3. Constructing Complex Probability Amplitudes:
    
    - What is a complex probability amplitude?
      
@@ -169,7 +170,8 @@ This information is not directly observable but becomes physically meaningful wh
 
 
 
-4. Computing the Measureable Probability Density
+4. Computing the Measureable Probability Density:
+   
 Once the complex probability amplitudes from each slit have been constructed, they are combined to form a total amplitude:
 
 ψ(x) = ψ₁(x) + ψ₂(x).
