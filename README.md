@@ -87,6 +87,7 @@ results:
 1. Determining the Geometry of Particle Path:
    
 - What path does the particle take?
+  
 The first step in the model is to determine the geometric path length from a slit to a point on the screen.
 
 The slit plane is separated from the screen by a fixed horizontal distance L. A point on the screen is located at vertical position x, while slit 1 is located at vertical position y₁. The vertical separation between the slit and the screen point is therefore x − y₁.
@@ -191,22 +192,21 @@ Adding amplitudes prior to measurement produces cross terms when the magnitude s
 
 
 Why the magnitude square is taken:
+
 Probabilities in quantum mechanics are obtained by taking the magnitude squared of the complex probability amplitude:
 
 |ψ|² = ψ* ψ.
 
 This operation guarantees that probabilities are:
-
-real
-
-nonnegative
-
-physically meaningful
+- real
+- nonnegative
+- physically meaningful
 
 Squaring the complex amplitude itself would not, in general, yield a real quantity and therefore cannot represent a probability.
 
 
 Interference and observable results:
+
 Interference does not arise from squaring a single amplitude, which would yield a uniform probability distribution. Instead, it arises from adding multiple complex amplitudes and then taking the magnitude squared of their sum. This process generates interference terms that depend on the relative phase between paths.
 
 The resulting probability density is a continuous distribution across the screen. Regions of constructive interference correspond to higher probability density, while regions of destructive interference correspond to lower probability density.
@@ -215,6 +215,7 @@ If individual particle detections are later simulated, a histogram of detection 
 
 
 Final Note:
+
 This experiment demonstrates that interference is not a property of particles following classical trajectories, but a consequence of quantum superposition and phase coherence. By modeling amplitudes rather than probabilities, the interference pattern emerges naturally, illustrating the fundamentally quantum nature of the double-slit experiment.
 
 
