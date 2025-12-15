@@ -68,15 +68,19 @@ This simulation makes the following controlled assumptions in order to isolate q
 - No environmental decoherence
 - No which-path detector or measurement
 - Particle feels no external force
-- Narrow-slit (point-source) approximation
+  
+ These assumptions are not meant to fully replicate a real laboratory experiment, but rather to model the essential quantum mechanism responsible for interference.
 
-These assumptions are not meant to fully replicate a real laboratory experiment, but rather to model the essential quantum mechanism responsible for interference.
+Result 1) Narrow-slit (point-source) apporoximation:
+<img width="474" height="361" alt="image" src="https://github.com/user-attachments/assets/a1b8ce95-4a4f-46e1-9376-401656f9c923" />
+In Result 1, each slit was modeled as a point-like source. This idealization captures the essential mechanism of quantum interference but neglects an important physical feature of real experiments: slits have finite width.
 
-Note on Slit Modeling:
-Each slit is modeled as a coherent source whose contributions are summed at the level of complex probability amplitudes.
 
-Discretely sampling or randomly selecting individual entry points within a slit would introduce implicit which-path information and suppress interference, effectively reducing the model to a classical mixture. For this reason, all possible paths through a slit are treated as simultaneously contributing to the complex probability amplitude at each screen position.
 
+Result 2) (hereY
+When a slit has nonzero width (Result 2), particles may pass through different vertical positions within the same slit. Each of these possible paths accumulates a slightly different phase before reaching the screen. As a result, amplitudes originating from different points within a single slit can interfere with one another, producing diffraction in addition to the interference between slits.
+
+The goal of this extension is to incorporate slit width into the model while preserving the same quantum-mechanical framework based on complex probability amplitudes.
 A more detailed model incorporating finite slit width would require integrating amplitudes over all possible entry points within the slit.
 
 results:
