@@ -89,9 +89,17 @@ The goal of this extension is to incorporate slit width into the model while pre
 A more detailed model incorporating finite slit width would require integrating amplitudes over all possible entry points within the slit.
 
 
+## Experiment 4
+(Experiment here)
 
 
-Steps to developing the physics model:
+
+
+
+
+
+
+## Steps to developing the physics model:
 
 1. Determining the Geometry of Particle Path:
    
