@@ -54,9 +54,11 @@ The classical double-slit experiment produces a probability distribution consist
 ## Experiment 3: Double-Slit Measurement (Observed Result, No Path Detection)
 ##                                        (Point-Slit and Finite-Slit Model)
 
-When the double-slit experiment is performed without any measurement determining which slit an electron passes through, the resulting distribution on the detection screen exhibits an interference pattern rather than the smooth, additive distributions predicted by classical probability theory. This behavior cannot be explained by treating electrons as classical particles following definite trajectories.
+When the double-slit experiment is performed without any measurement determining which slit an electron passes through, the resulting distribution on the detection screen exhibits an interference pattern rather than the smooth, additive distributions predicted by classical probability theory. Such behavior is impossible to explain if electrons are treated as classical particles following definite trajectories.
 
-Instead, experimental results are consistent with a quantum description in which electrons are represented by complex probability amplitudes. These amplitudes propagate through both slits coherently, carry phase information, and interfere when combined. Regions of constructive and destructive interference emerge naturally from this superposition.
+Instead, experimental results are consistent with a quantum description in which electrons are represented by complex probability amplitudes. These amplitudes propagate coherently through both slits, carry phase information, and combine before measurement. The finite width of the slits plays a crucial role: amplitudes originating from different positions within each slit interfere with one another, producing diffraction in addition to the interference between slits.
+
+This experiment models this behavior by replacing classical probability addition with quantum amplitude superposition, isolating the quantum mechanisms responsible for both interference and diffraction in the absence of which-path information.
 
 <img width="318" height="159" alt="image" src="https://github.com/user-attachments/assets/f727cde7-17c3-4f91-8be4-e07f40c579a4" />
 
