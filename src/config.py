@@ -25,8 +25,7 @@ random_seed = 42
 #larger dx = coarse measurement
 #samller dx = more precise measurement
 
-dx = .05
-
+dx = 0.05
 #the detector resolution
 #Your detector screen is divided into pixels of width dx, and you cannot distinguish
 #... two particle hits whose positions differ by less than dx
@@ -50,3 +49,11 @@ resolution = 4000
 
 # wavelegnth
 wavelength = 0.2
+
+#using a finite slit width model
+
+#slit width
+slit_width = .05
+slit_width *=5
+#the number of y coordinates we will be integrating over in the integral
+slit_samples = 4000 

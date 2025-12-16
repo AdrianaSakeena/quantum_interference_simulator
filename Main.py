@@ -8,8 +8,20 @@ import src.experiment3 as exp3
 def main():
     #np.random.seed(config.random_seed)
     #showing probability distribution plot
-    screen,p = exp3.probability_distribution()
-    plot.plot_probability_distribution(screen,p)
+    nonfinite_p = exp3.non_finite_probability_distribution()
+    screen,p_finite = exp3.probability_distribution()
+
+    #p1 = nonfinite probability distribution 
+    #p2 = finite probability distribution
+
+    #print overlay plot
+    plot.plot_overlay(screen,nonfinite_p,p_finite)
+
+
+
+    
+    #plot.plot_probability_distribution(screen,p)
+    
     
               
     
