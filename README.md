@@ -74,14 +74,14 @@ This simulation makes the following controlled assumptions in order to isolate q
   
  These assumptions are not meant to fully replicate a real laboratory experiment, but rather to model the essential quantum mechanism responsible for interference.
 
-Result 1) Narrow-slit (point-source) apporoximation:
+Result 1) Point Slit apporoximation:
 
 - <img width="474" height="361" alt="image" src="https://github.com/user-attachments/assets/a1b8ce95-4a4f-46e1-9376-401656f9c923" />
 In Result 1, each slit was modeled as a point-like source. This idealization captures the essential mechanism of quantum interference but neglects an important physical feature of real experiments: slits have finite width.
 
 
 
-Result 2) Nonzero slit width
+Result 2) Finite slit width (Non-zero)
 
 - <img width="480" height="356" alt="image" src="https://github.com/user-attachments/assets/8a4dac10-c08d-49b5-a0b8-1a20824fc7ee" />
 
@@ -90,10 +90,20 @@ When a slit has nonzero width, particles may pass through different vertical pos
 The goal of this extension is to incorporate slit width into the model while preserving the same quantum-mechanical framework based on complex probability amplitudes.
 A more detailed model incorporating finite slit width would require integrating amplitudes over all possible entry points within the slit.
 
+
+
+
+Result 3) Overlay of Point Approximation vs Finite Slit Width
+- <img width="475" height="364" alt="image" src="https://github.com/user-attachments/assets/d5bcde1b-b898-4766-8ba8-42af8f4654f3" />
+Overlay of point-slit and finite-slit probability distributions for the double-slit experiment without path detection. The point-slit model exhibits pure interference, while the finite-slit model shows a diffraction envelope arising from interference between amplitudes originating at different positions within each slit. The dashed curve shows the difference between the two distributions, isolating the effect of finite slit width.
+
+
 Summary:
 - This experiment shows that the interference and diffraction patterns observed in the double-slit experiment arise from the wave-like behavior of quantum particles. When no which-path measurement is made, particles cannot be treated as traveling through a single slit; instead, they are described by complex probability amplitudes that propagate through all available paths and interfere.
 
 In the point-slit model, interference results from the superposition of amplitudes from each slit. When finite slit width is included, amplitudes from different positions within the same slit also interfere, producing diffraction. Together, these results demonstrate that both interference and diffraction are natural consequences of quantum superposition and cannot be explained by classical particle trajectories.
+
+
 
 
 ## Experiment 4
