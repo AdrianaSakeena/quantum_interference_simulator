@@ -99,9 +99,9 @@ Overlay of point-slit and finite-slit probability distributions for the double-s
 
 
 Summary:
-- This experiment shows that the interference and diffraction patterns observed in the double-slit experiment arise from the wave-like behavior of quantum particles. When no which-path measurement is made, particles cannot be treated as traveling through a single slit; instead, they are described by complex probability amplitudes that propagate through all available paths and interfere.
+- This experiment proves that the interference and diffraction patterns observed in the double-slit experiment arise from the wave-like behavior of quantum particles through the simulation of quantum behavior using mathematical objects (see code). When no which-path measurement is made, particles cannot be treated as traveling through a single slit; instead, they are described by complex probability amplitudes that propagate through all available paths and interfere.
 
-In the point-slit model, interference results from the superposition of amplitudes from each slit. When finite slit width is included, amplitudes from different positions within the same slit also interfere, producing diffraction. Together, these results demonstrate that both interference and diffraction are natural consequences of quantum superposition and cannot be explained by classical particle trajectories.
+- In the point-slit model, interference results from the superposition of amplitudes from each slit. When finite slit width is included, amplitudes from different positions within the same slit also interfere, producing diffraction. Together, these results demonstrate that both interference and diffraction are natural consequences of quantum superposition and cannot be explained by classical particle trajectories.
 
 
 
