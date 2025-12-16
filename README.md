@@ -52,6 +52,7 @@ The classical double-slit experiment produces a probability distribution consist
 
 
 ## Experiment 3: Double-Slit Measurement (Observed Result, No Path Detection)
+##                                        (Point-Slit and Finite-Slit Model)
 
 When the double-slit experiment is performed without any measurement determining which slit an electron passes through, the resulting distribution on the detection screen exhibits an interference pattern rather than the smooth, additive distributions predicted by classical probability theory. This behavior cannot be explained by treating electrons as classical particles following definite trajectories.
 
@@ -82,22 +83,15 @@ Result 2) Nonzero slit width
 
 - <img width="480" height="356" alt="image" src="https://github.com/user-attachments/assets/8a4dac10-c08d-49b5-a0b8-1a20824fc7ee" />
 
-When a slit has nonzero width (Result 2), particles may pass through different vertical positions within the same slit. Each of these possible paths accumulates a slightly different phase before reaching the screen. As a result, amplitudes originating from different points within a single slit can interfere with one another, producing diffraction in addition to the interference between slits.
+When a slit has nonzero width, particles may pass through different vertical positions within the same slit. Each of these possible paths accumulates a slightly different phase before reaching the screen. As a result, amplitudes originating from different points within a single slit can interfere with one another, producing diffraction in addition to the interference between slits.
 
 The goal of this extension is to incorporate slit width into the model while preserving the same quantum-mechanical framework based on complex probability amplitudes.
 A more detailed model incorporating finite slit width would require integrating amplitudes over all possible entry points within the slit.
 
-Physics Interpretation of Nonzero Slit Width:
-- In quantum mechanics, when path information is unobserved, all possible paths contribute coherently at the level of probability amplitudes. This principle applies not only to different slits, but also to different points within a single slit.
-
-For a slit of finite width, the particle does not pass through a single, well-defined position. Instead, all positions within the slit opening represent possible paths. Because no measurement is made to determine where within the slit the particle passes, these alternatives must be summed as amplitudes rather than treated as independent events.
-
-This coherent summation leads to partial cancellation of amplitudes from different parts of the slit, producing a diffraction envelope that modulates the interference fringes.
-
-results:
- (picture here)
 
 
+
+Steps to developing the physics model:
 
 1. Determining the Geometry of Particle Path:
    
@@ -112,9 +106,6 @@ These distances form the legs of a right triangle, whose hypotenuse corresponds 
 r₁(x) = √(L² + (x − y₁)²).
 
 Although the slit-to-screen distance L is constant, the vertical separation x − y₁ varies across the screen. As a result, each screen position corresponds to a unique path length. These geometric path lengths form the foundation for determining the quantum phase accumulated along each path.
-
-
-
 
 
 
