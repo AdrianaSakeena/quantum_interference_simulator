@@ -88,6 +88,11 @@ When a slit has nonzero width, particles may pass through different vertical pos
 The goal of this extension is to incorporate slit width into the model while preserving the same quantum-mechanical framework based on complex probability amplitudes.
 A more detailed model incorporating finite slit width would require integrating amplitudes over all possible entry points within the slit.
 
+Summary:
+- This experiment shows that the interference and diffraction patterns observed in the double-slit experiment arise from the wave-like behavior of quantum particles. When no which-path measurement is made, particles cannot be treated as traveling through a single slit; instead, they are described by complex probability amplitudes that propagate through all available paths and interfere.
+
+In the point-slit model, interference results from the superposition of amplitudes from each slit. When finite slit width is included, amplitudes from different positions within the same slit also interfere, producing diffraction. Together, these results demonstrate that both interference and diffraction are natural consequences of quantum superposition and cannot be explained by classical particle trajectories.
+
 
 ## Experiment 4
 (Experiment here)
