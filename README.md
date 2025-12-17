@@ -1,17 +1,19 @@
 # Quantum Interference Simulator 
+This project presents a mathematical simulation of the double-slit experiment using quantum mechanical principles. Rather than treating electrons as classical particles, they are modeled as complex-valued probability amplitudes whose superposition determines observable outcomes on a detection screen. 
 
-This project builds a classical foundation for a quantum interference simulator.
-It begins by modeling particle detection on a finite-resolution screen using
-classical probability laws, and then extends the same experimental setup to
-demonstrate how quantum superposition produces interference patterns.
+The goal is to demonstrate that interference and diffractino arise naturally from the mathematical structure of quantum mechanics.
 
-The goal is to isolate exactly which classical assumptions fail and why
-quantum mechanics is required.
 
 ## Experiment 1: Single Slit Measurement (Classical Prediction)
 - Particles are sampled from a Gaussian distribution, representing the angular spread of particles emerging from a single slit.
 - The detector has finite spatial resolution.
 - The probability density on the screen is reconstructed via a histogram of particle impacts.
+
+  Model Assumptions:
+- One-dimensional propagation
+- Non-interacting particles
+- Idealized slit and screen
+- Measurement modeled probabilistically
 
 This baseline experiment is used to validate the detector model and classical
 sampling approach before introducing two slits, quantum superposition,
@@ -60,6 +62,9 @@ Instead, experimental results are consistent with a quantum description in which
 
 This experiment models this behavior by replacing classical probability addition with quantum amplitude superposition, isolating the quantum mechanisms responsible for both interference and diffraction in the absence of which-path information
 
+Mathematical Model:
+- In this model, each possible path from the source to the screen contributes a complex amplitude. These amplitudes encode both magnitude and phase and are combined according to the superposition principle. Observable probabilities are obtained only after summing amplitudes and taking the squared magnitude.
+
 <img width="318" height="159" alt="image" src="https://github.com/user-attachments/assets/f727cde7-17c3-4f91-8be4-e07f40c579a4" />
 
 In this experiment, we model the observed double-slit interference pattern by replacing classical probability addition with quantum amplitude superposition, demonstrating how interference arises as a purely quantum effect.
@@ -74,13 +79,13 @@ This simulation makes the following controlled assumptions in order to isolate q
   
 These assumptions are not intended to fully replicate a real laboratory experiment, but rather to model the essential quantum mechanisms responsible for interference and diffraction.
 
-Result 1) Point Slit apporoximation:
+Point Slit apporoximation:
 
 - <img width="474" height="361" alt="image" src="https://github.com/user-attachments/assets/a1b8ce95-4a4f-46e1-9376-401656f9c923" />
 In this model, each slit is treated as a point-like source. This idealization captures the essential mechanism of quantum interference between the two slits but neglects an important physical feature of real experiments: slits have finite width and internal spatial structure.
 
 
-Result 2) Finite slit width (Non-zero)
+Finite slit width (Non-zero):
 
 - <img width="480" height="356" alt="image" src="https://github.com/user-attachments/assets/8a4dac10-c08d-49b5-a0b8-1a20824fc7ee" />
 
@@ -90,7 +95,7 @@ This extension incorporates slit width while preserving the same quantum-mechani
 
 
 
-Result 3) Overlay of Point Approximation vs Finite Slit Width
+Overlay of Point Approximation vs Finite Slit Width:
 - <img width="475" height="364" alt="image" src="https://github.com/user-attachments/assets/d5bcde1b-b898-4766-8ba8-42af8f4654f3" />
 Overlay of the point-slit and finite-slit probability distributions for the double-slit experiment without path detection. The point-slit model exhibits pure interference, while the finite-slit model displays a diffraction envelope arising from interference between amplitudes originating at different positions within each slit. The dashed curve shows the difference between the two distributions, isolating the effect of finite slit width.
 
@@ -102,11 +107,25 @@ Point Slit vs Finite Slit Comparison:
 - The difference curve highlights how finite slit width suppresses higher-order fringes.
 
 
+Decreasing wavelength:
+
+- <img width="478" height="357" alt="image" src="https://github.com/user-attachments/assets/127508d2-4b0f-44ef-ab23-389815470c12" />
+By varying physical parameters such as wavelength, the model demonstrates that classical particle-like behavior is not a departure from quantum mechanics, but a limiting consequence of it. As the wavelength is decreased, which corresponds to increasing momentum, the phase of the quantum amplitude oscillates increasingly rapidly across different paths. These rapid phase variations cause interference effects to cancel out everywhere except along stationary-phase trajectories, leaving only narrow peaks associated with classical paths. In this regime, quantum superposition remains present, but its effects become unobservable, giving rise to the appearance of classical motion.
+
+
+
+
+
+
 Summary:
-- This experiment demonstrates that the interference and diffraction patterns observed in the double-slit experiment arise naturally from the wave-like behavior of quantum particles. When no which-path measurement is made, particles cannot be described as traveling through a single slit; instead, they must be represented by complex probability amplitudes that propagate through all available paths and interfere.
-
-- In the point-slit model, interference arises from the superposition of amplitudes from each slit. When finite slit width is included, amplitudes from different positions within the same slit also interfere, producing diffraction. Together, these results show that both interference and diffraction are direct consequences of quantum superposition and cannot be explained by classical particle trajectories.
-
+- The interference in the double-slit experiment arises only when electrons are modeled as quantum probability amplitudes, not as classical particles following definite trajectories.
+- When no which-path information is available, amplitudes from both slits superpose coherently, and the probability distribution on the screen is given by the squared magnitude of the summed amplitudes.
+- Treating each slit as a point-like source reproduces pure interference, capturing the essential quantum effect but neglecting spatial structure within the slits.
+- Introducing a finite slit width reveals an additional layer of quantum behavior: amplitudes originating from different positions within the same slit interfere with one another, producing diffraction.
+- The finite-slit model demonstrates that the observed pattern is not merely two-slit interference, but an interference pattern modulated by a diffraction envelope arising from intra-slit phase variation.
+- Overlaying the point-slit and finite-slit models isolates the physical role of slit width, showing how finite apertures suppress higher-order fringes while preserving the underlying quantum superposition mechanism.
+- By decreasing the wavelength,increasing momentum, the model reproduces the emergence of classical behavior: rapid phase oscillations wash out observable interference, leaving only narrow peaks corresponding to stationary-phase, classical paths.
+- This transition demonstrates that classical particle-like behavior is not separate from quantum mechanics, but emerges as a limiting case in which quantum phase information becomes unobservable.
 
 
 ## Experiment 4
@@ -117,6 +136,10 @@ Summary:
 
 
 
+
+Final Note:
+
+This experiment demonstrates that interference is not a property of particles following classical trajectories, but a consequence of quantum superposition and phase coherence. By modeling amplitudes rather than probabilities, the interference pattern emerges naturally, illustrating the fundamentally quantum nature of the double-slit experiment.
 
 
 ## Steps to developing the physics model:
@@ -252,9 +275,7 @@ If individual particle detections are later simulated, a histogram of detection 
 
 
 
-Final Note:
 
-This experiment demonstrates that interference is not a property of particles following classical trajectories, but a consequence of quantum superposition and phase coherence. By modeling amplitudes rather than probabilities, the interference pattern emerges naturally, illustrating the fundamentally quantum nature of the double-slit experiment.
 
 
 
