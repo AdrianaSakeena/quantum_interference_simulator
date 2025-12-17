@@ -79,13 +79,13 @@ This simulation makes the following controlled assumptions in order to isolate q
   
 These assumptions are not intended to fully replicate a real laboratory experiment, but rather to model the essential quantum mechanisms responsible for interference and diffraction.
 
-Point Slit apporoximation:
+# Point Slit apporoximation:
 
 - <img width="474" height="361" alt="image" src="https://github.com/user-attachments/assets/a1b8ce95-4a4f-46e1-9376-401656f9c923" />
 In this model, each slit is treated as a point-like source. This idealization captures the essential mechanism of quantum interference between the two slits but neglects an important physical feature of real experiments: slits have finite width and internal spatial structure.
 
 
-Finite slit width (Non-zero):
+# Finite slit width (Non-zero):
 
 - <img width="480" height="356" alt="image" src="https://github.com/user-attachments/assets/8a4dac10-c08d-49b5-a0b8-1a20824fc7ee" />
 
@@ -95,7 +95,7 @@ This extension incorporates slit width while preserving the same quantum-mechani
 
 
 
-Overlay of Point Approximation vs Finite Slit Width:
+# Overlay of Point Approximation vs Finite Slit Width:
 - <img width="475" height="364" alt="image" src="https://github.com/user-attachments/assets/d5bcde1b-b898-4766-8ba8-42af8f4654f3" />
 Overlay of the point-slit and finite-slit probability distributions for the double-slit experiment without path detection. The point-slit model exhibits pure interference, while the finite-slit model displays a diffraction envelope arising from interference between amplitudes originating at different positions within each slit. The dashed curve shows the difference between the two distributions, isolating the effect of finite slit width.
 
@@ -107,7 +107,7 @@ Point Slit vs Finite Slit Comparison:
 - The difference curve highlights how finite slit width suppresses higher-order fringes.
 
 
-Decreasing wavelength:
+# Decreasing wavelength:
 
 - <img width="478" height="357" alt="image" src="https://github.com/user-attachments/assets/127508d2-4b0f-44ef-ab23-389815470c12" />
 By varying physical parameters such as wavelength, the model demonstrates that classical particle-like behavior is not a departure from quantum mechanics, but a limiting consequence of it. As the wavelength is decreased, which corresponds to increasing momentum, the phase of the quantum amplitude oscillates increasingly rapidly across different paths. These rapid phase variations cause interference effects to cancel out everywhere except along stationary-phase trajectories, leaving only narrow peaks associated with classical paths. In this regime, quantum superposition remains present, but its effects become unobservable, giving rise to the appearance of classical motion.
