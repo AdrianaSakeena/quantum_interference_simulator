@@ -123,10 +123,12 @@ def probability_distribution():
     a1 = np.sum(a1,axis = 1)
     a2 = np.sum(a2,axis =1)
 
-    #add amplitudes from both slits
-    a = a1 + a2
-    #compute probability using Born rule
-    p = np.abs(a)**2
+    #square amplitudes before adding to get classical probability
+    a1 = np.abs((a1)**2)
+    a2 = np.abs((a2)**2)
+    
+    #compute probability by adding two amplitudes
+    p = a1 + a2
 
     if np.sum(p) != 0:
         p = p / np.sum(p) # the probabilities will add to equal 1, ensuring the particles land somewhere on the screen

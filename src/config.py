@@ -34,7 +34,7 @@ bins = int((screen_max - screen_min)/dx)
 # distance between slit centers
 half_screen = (screen_max - screen_min)/2
 
-d = 1.0
+d = 4.0
 #the center of the left slit (negative side of screen)
 d_1 = (d/2)*-1
 
@@ -48,7 +48,7 @@ L = 10
 resolution = 4000
 
 # wavelegnth
-wavelength = 0.2
+wavelength = .2
 
 #using a finite slit width model
 

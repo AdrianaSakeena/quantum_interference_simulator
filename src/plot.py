@@ -29,7 +29,7 @@ def plot_probability_distribution(screen,p):
     plt.plot(screen,p)#plot the probability distribution to the correct x values
     plt.xlabel("Screen Position x") 
     plt.ylabel("Probability P(x)")
-    plt.title("Double Slit Interference (No Which-Path Dectection)(Finite Slit-Width)")
+    plt.title("Double Slit Interference (Which-Path Dectection)(Finite Slit-Width)")
     plt.grid(True) #add grid lines to the background so it is easier to see peaks and spacing
     plt.tight_layout() #improve spacing/presentation cleanup
     plt.show() #show the plot
