@@ -145,10 +145,12 @@ By varying physical parameters such as wavelength, the model demonstrates that c
 
 
 
-Final Note:
+# Project Conclusion:
+- This project presents a mathematical simulation of the double-slit experiment that demonstrates how interference, diffraction, and classical particle-like behavior arise from the same underlying quantum framework. Rather than modeling electrons as classical particles following trajectories, they are treated as mathematical objects described by complex probability amplitudes that propagate, superpose, and are converted into observable probabilities only at the point of measurement.
 
-This experiment demonstrates that interference is not a property of particles following classical trajectories, but a consequence of quantum superposition and phase coherence. By modeling amplitudes rather than probabilities, the interference pattern emerges naturally, illustrating the fundamentally quantum nature of the double-slit experiment.
+- Through a sequence of controlled experiments, the model shows that classical probability addition cannot produce interference, while quantum amplitude superposition naturally does. Incorporating finite slit width reveals diffraction as an additional consequence of phase variation across spatially extended apertures, and varying wavelength demonstrates how classical behavior emerges as a limiting case of quantum mechanics when phase information becomes unobservable. Introducing which-path information further illustrates that the disappearance of interference is not caused by a change in particle motion, but by a change in how probabilities must be computed when phase coherence is lost.
 
+- Taken together, these results show that the double-slit experiment does not require modifying classical intuition, but replacing it with a quantum description in which superposition, phase, and measurement determine observable outcomes. In this framework, both interference and classical behavior are explained as consequences of the same mathematical structure, with the latter emerging when quantum phase relationships no longer affect observable probabilities.
 
 ## Steps to developing the physics model:
 
