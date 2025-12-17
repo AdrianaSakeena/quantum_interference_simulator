@@ -117,7 +117,7 @@ By varying physical parameters such as wavelength, the model demonstrates that c
 
 
 
-Summary:
+# Summary:
 - The interference in the double-slit experiment arises only when electrons are modeled as quantum probability amplitudes, not as classical particles following definite trajectories.
 - When no which-path information is available, amplitudes from both slits superpose coherently, and the probability distribution on the screen is given by the squared magnitude of the summed amplitudes.
 - Treating each slit as a point-like source reproduces pure interference, capturing the essential quantum effect but neglecting spatial structure within the slits.
@@ -128,8 +128,107 @@ Summary:
 - This transition demonstrates that classical particle-like behavior is not separate from quantum mechanics, but emerges as a limiting case in which quantum phase information becomes unobservable.
 
 
-## Experiment 4
-(Experiment here)
+## Experiment 4: What happens to the interference pattern when which path information (detection) is available?
+<img width="960" height="719" alt="image" src="https://github.com/user-attachments/assets/77a02117-b7a4-4be0-83fe-d536d26ef844" />
+
+In this experiment, which-path information is introduced, meaning the electron’s path through the apparatus becomes distinguishable.
+
+Mathematically, this changes how probabilities are computed: instead of summing complex amplitudes and then squaring, the squared magnitudes of the amplitudes from each slit are computed independently and added.
+
+Specifically, the probability rule changes from
+
+𝑃
+(
+𝑥
+)
+=
+∣
+𝜓
+1
+(
+𝑥
+)
++
+𝜓
+2
+(
+𝑥
+)
+∣
+2
+P(x)=∣ψ
+1
+	​
+
+(x)+ψ
+2
+	​
+
+(x)∣
+2
+
+to
+
+𝑃
+(
+𝑥
+)
+=
+∣
+𝜓
+1
+(
+𝑥
+)
+∣
+2
++
+∣
+𝜓
+2
+(
+𝑥
+)
+∣
+2
+P(x)=∣ψ
+1
+	​
+
+(x)∣
+2
++∣ψ
+2
+	​
+
+(x)∣
+2
+.
+
+This modification removes the cross terms responsible for interference, eliminating all fringe structure in the resulting probability distribution.
+
+Each term 
+∣
+𝜓
+𝑖
+(
+𝑥
+)
+∣
+2
+∣ψ
+i
+	​
+
+(x)∣
+2
+ corresponds to the diffraction pattern produced by a single slit, so the final distribution represents the sum of independent single-slit contributions.
+
+Although two slits are physically present, each electron is associated with a single, distinguishable path, making the result equivalent to a one-slit experiment repeated twice.
+
+When the individual single-slit diffraction patterns overlap strongly, their sum produces a single smooth central envelope rather than two distinct peaks.
+
+In this regime, quantum superposition no longer influences the observed outcome, and probabilities combine according to classical addition, producing effectively classical particle-like behavior.
 
 
 
