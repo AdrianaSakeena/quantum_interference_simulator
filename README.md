@@ -1,4 +1,4 @@
-# Quantum Interference Simulator (Baseline)
+# Quantum Interference Simulator 
 
 This project builds a classical foundation for a quantum interference simulator.
 It begins by modeling particle detection on a finite-resolution screen using
@@ -93,6 +93,13 @@ This extension incorporates slit width while preserving the same quantum-mechani
 Result 3) Overlay of Point Approximation vs Finite Slit Width
 - <img width="475" height="364" alt="image" src="https://github.com/user-attachments/assets/d5bcde1b-b898-4766-8ba8-42af8f4654f3" />
 Overlay of the point-slit and finite-slit probability distributions for the double-slit experiment without path detection. The point-slit model exhibits pure interference, while the finite-slit model displays a diffraction envelope arising from interference between amplitudes originating at different positions within each slit. The dashed curve shows the difference between the two distributions, isolating the effect of finite slit width.
+
+
+Point Slit vs Finite Slit Comparison:
+- The point-slit model assumes zero slit width and produces pure interference.
+- The finite-slit model integrates over a continuous aperture, introducing diffraction.
+- The resulting probability distribution shows an interference pattern modulated by a diffraction envelope.
+- The difference curve highlights how finite slit width suppresses higher-order fringes.
 
 
 Summary:
